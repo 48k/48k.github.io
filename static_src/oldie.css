@@ -1,0 +1,7 @@
+﻿section, header, nav {
+    width:1046px;
+}
+
+nav ul, .row{
+    *zoom: 1;
+}
