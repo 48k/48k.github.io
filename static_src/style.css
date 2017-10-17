@@ -65,18 +65,21 @@ img.margin-b{
     border-bottom:3px solid #323338;
 }
 
-section, header {
+section {
     max-width: 1046px;
     margin: 0 auto;
     padding:40px 20px 60px 20px;
     position:relative;
 }
 
-header{
-    background-image:url('images/logo.png');
-    background-position:center 25px;
-    background-repeat:no-repeat;
-    padding-top:140px;
+header {
+    position: relative;
+    padding: 0;
+}
+
+header img {
+    display: block;
+    max-width: 100%;
 }
 
 header.subpage{
